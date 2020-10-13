@@ -46,7 +46,7 @@ This is a fork of ZeroBin, originally developed by Sébastien Sauvage. It was re
 
 ## Additional information
 
-In the [update documentation](https://github.com/PrivateBin/PrivateBin/wiki/Configuration#zerobincompatibility) of Parsebin, it is specified that:
+In the [update documentation](https://github.com/PrivateBin/PrivateBin/wiki/Configuration#zerobincompatibility) of ParsteBin, it is specified that:
 
 For full compatibility with ZeroBin and to be able to decrypt old pastes, you would enable this option. However this is not recommend for new installations as it weakens the security of your PrivateBin instance.
 
