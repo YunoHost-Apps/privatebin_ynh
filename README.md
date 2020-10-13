@@ -1,7 +1,7 @@
 # PrivateBin for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/zerobin.svg)](https://dash.yunohost.org/appci/app/zerobin) ![](https://ci-apps.yunohost.org/ci/badges/zerobin.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/zerobin.maintain.svg)  
-[![Install PrivateBin with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=zerobin)
+[![Integration level](https://dash.yunohost.org/integration/privatebin.svg)](https://dash.yunohost.org/appci/app/privatebin) ![](https://ci-apps.yunohost.org/ci/badges/privatebin.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/privatebin.maintain.svg)  
+[![Install PrivateBin with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=privatebin)
 
 *[Lire ce readme en français.](./README_fr.md)*
 
@@ -24,7 +24,6 @@ This is a fork of ZeroBin, originally developed by Sébastien Sauvage. It was re
 
 ## Demo
 
-* [YunoHost demo](https://demo.yunohost.org/zerobin/)
 * [Official demo](https://privatebin.net/)
 
 ## Configuration
@@ -32,6 +31,7 @@ This is a fork of ZeroBin, originally developed by Sébastien Sauvage. It was re
 ## Documentation
 
  * Official documentation: https://github.com/PrivateBin/PrivateBin/wiki
+ * YunoHost documentation: https://yunohost.org/#/app_privatebin
 
 ## YunoHost specific features
 
@@ -39,9 +39,8 @@ This is a fork of ZeroBin, originally developed by Sébastien Sauvage. It was re
 
 #### Supported architectures
 
-* x86-64b - [![Build Status](https://ci-apps.yunohost.org/ci/logs/zerobin%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/zerobin/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/zerobin%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/zerobin/)
-* Jessie x86-64b - [![Build Status](https://ci-stretch.nohost.me/ci/logs/zerobin%20%28Apps%29.svg)](https://ci-stretch.nohost.me/ci/apps/zerobin/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/privatebin%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/privatebin/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/privatebin%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/privatebin/)
 
 ## Limitations
 
@@ -55,22 +54,20 @@ This means that we have decided to delete the directory that allows us to save t
 
 ## Links
 
- * Report a bug: https://github.com/YunoHost-Apps/zerobin_ynh/issues
+ * Report a bug: https://github.com/YunoHost-Apps/privatebin_ynh/issues
  * PrivateBin website: https://privatebin.info/
  * PrivateBin repository: https://github.com/PrivateBin/PrivateBin
  * YunoHost website: https://yunohost.org/
 
 ---
 
-Developers info
-----------------
+## Developers info
 
-**Only if you want to use a testing branch for coding, instead of merging directly into master.**
-Please do your pull request to the [testing branch](https://github.com/YunoHost-Apps/zerobin_ynh/tree/testing).
+Please do your pull request to the [testing branch](https://github.com/YunoHost-Apps/privatebin_ynh/tree/testing).
 
 To try the testing branch, please proceed like that.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/zerobin_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/privatebin_ynh/tree/testing --debug
 or
-sudo yunohost app upgrade zerobin -u https://github.com/YunoHost-Apps/zerobin_ynh/tree/testing --debug
+sudo yunohost app upgrade privatebin -u https://github.com/YunoHost-Apps/privatebin_ynh/tree/testing --debug
 ```
