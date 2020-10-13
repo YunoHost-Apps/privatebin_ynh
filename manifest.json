@@ -1,6 +1,6 @@
 {
-    "name": "Zerobin",
-    "id": "zerobin",
+    "name": "PrivateBin",
+    "id": "privatebin",
     "packaging_format": 1,
     "description": {
         "en": "Minimalist pastebin where the server has zero knowledge of pasted data",
@@ -27,8 +27,8 @@
                 "name": "domain",
                 "type": "domain",
                 "ask": {
-                    "en": "Choose a domain for Zerobin",
-                    "fr": "Choisissez un domaine pour Zerobin"
+                    "en": "Choose a domain for PrivateBin",
+                    "fr": "Choisissez un domaine pour PrivateBin"
                 },
                 "example": "domain.org"
             },
@@ -36,11 +36,11 @@
                 "name": "path",
                 "type": "path",
                 "ask": {
-                    "en": "Choose a path for Zerobin",
-                    "fr": "Choisissez un chemin pour Zerobin"
+                    "en": "Choose a path for PrivateBin",
+                    "fr": "Choisissez un chemin pour PrivateBin"
                 },
-                "example": "/zerobin",
-                "default": "/zerobin"
+                "example": "/privatebin",
+                "default": "/privatebin"
             },
             {
                 "name": "is_public",

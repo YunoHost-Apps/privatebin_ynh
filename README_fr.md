@@ -1,7 +1,7 @@
 # PrivateBin pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/zerobin.svg)](https://dash.yunohost.org/appci/app/zerobin) ![](https://ci-apps.yunohost.org/ci/badges/zerobin.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/zerobin.maintain.svg)  
-[![Installer PrivateBin avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=zerobin)
+[![Niveau d'intégration](https://dash.yunohost.org/integration/privatebin.svg)](https://dash.yunohost.org/appci/app/privatebin) ![](https://ci-apps.yunohost.org/ci/badges/privatebin.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/privatebin.maintain.svg)  
+[![Installer PrivateBin avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=privatebin)
 
 *[Read this readme in english.](./README.md)* 
 
@@ -14,8 +14,7 @@ PrivateBin est un logiciel libre, minimaliste, qui joue le rôle de pastebin (co
 
 Les données sont chiffrées et déchiffrées dans le navigateur en utilisant la technologie AES 256bits en mode Galois Counter (GCM).
 
-Ce projet est un fork de ZeroBin, développé à l'origine par Sébastien Sauvage. Il a été ré-écrit pour accepter plus facilement des extensions en rajoutant plus de fonctionnalités. 
-Il reste cependant compatible avec le schéma original de stockage des données Zerobin 0.19. Ainsi toutes les installations peuvent être mises à jour vers ce projet, sans perte de données.
+Ce projet est un fork de ZeroBin, développé à l'origine par Sébastien Sauvage. Il a été ré-écrit pour accepter plus facilement des extensions en rajoutant plus de fonctionnalités. Il reste cependant compatible avec le schéma original de stockage des données Zerobin 0.19. Ainsi toutes les installations peuvent être mises à jour vers ce projet, sans perte de données.
 
 **Version incluse:** 1.3.4
 
@@ -25,7 +24,6 @@ Il reste cependant compatible avec le schéma original de stockage des données 
 
 ## Démo
 
-* [Démo YunoHost](https://demo.yunohost.org/zerobin/)
 * [Démo Privatebin](https://privatebin.net/)
 
 ## Configuration
@@ -33,7 +31,7 @@ Il reste cependant compatible avec le schéma original de stockage des données 
 ## Documentation
 
  * Documentation officielle : https://github.com/PrivateBin/PrivateBin/wiki
- * Documentation YunoHost : https://yunohost.org/#/app_zerobin_fr
+ * Documentation YunoHost : https://yunohost.org/#/app_privatebin_fr
 
 ## Caractéristiques spécifiques YunoHost
 
@@ -41,8 +39,8 @@ Il reste cependant compatible avec le schéma original de stockage des données 
 
 #### Architectures supportées
 
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/zerobin%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/zerobin/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/zerobin%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/zerobin/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/privatebin%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/privatebin/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/privatebin%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/privatebin/)
 
 ## Limitations
 
@@ -54,7 +52,7 @@ Dans la [documentation de mise à jour](https://github.com/PrivateBin/PrivateBin
 
 ## Liens
 
- * Signaler un bug : https://github.com/YunoHost-Apps/zerobin_ynh/issues
+ * Signaler un bug : https://github.com/YunoHost-Apps/privatebin_ynh/issues
  * Site de l'application PrivateBin : https://privatebin.info/
  * Dépot de l'application principale : https://github.com/PrivateBin/PrivateBin
  * Site web YunoHost : https://yunohost.org/
@@ -63,11 +61,11 @@ Dans la [documentation de mise à jour](https://github.com/PrivateBin/PrivateBin
 
 ## Informations pour les développeurs
 
-Merci de faire vos pull request dans la [branche testing](https://github.com/YunoHost-Apps/zerobin_ynh/tree/testing).
+Merci de faire vos pull request dans la [branche testing](https://github.com/YunoHost-Apps/privatebin_ynh/tree/testing).
 
 Pour essayer la branche testing, procédez comme suit.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/zerobin_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/privatebin_ynh/tree/testing --debug
 or
-sudo yunohost app upgrade zerobin -u https://github.com/YunoHost-Apps/zerobin_ynh/tree/testing --debug
+sudo yunohost app upgrade privatebin -u https://github.com/YunoHost-Apps/privatebin_ynh/tree/testing --debug
 ```
