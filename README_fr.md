@@ -68,6 +68,6 @@ Merci de faire vos pull request dans la [branche testing](https://github.com/Yun
 Pour essayer la branche testing, procédez comme suit.
 ```
 sudo yunohost app install https://github.com/YunoHost-Apps/privatebin_ynh/tree/testing --debug
-or
+ou
 sudo yunohost app upgrade privatebin -u https://github.com/YunoHost-Apps/privatebin_ynh/tree/testing --debug
 ```
