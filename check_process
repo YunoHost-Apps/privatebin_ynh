@@ -11,7 +11,7 @@
 		setup_private=0
 		setup_public=1
 		upgrade=1
-		upgrade=1	from_commit=42913fc917c98766b0cbba47a3b40148dffaac58
+		upgrade=1	from_commit=8ce6cac57048e5df294269989c2432d67bef4c5c
 		backup_restore=1
 		multi_instance=1
 		incorrect_path=1
@@ -21,6 +21,6 @@
 Email=
 Notification=none
 ;;; Upgrade options
-	; commit=42913fc917c98766b0cbba47a3b40148dffaac58
-		name=Refactoring
+	; commit=8ce6cac57048e5df294269989c2432d67bef4c5c
+		name=Testing (#1) 
 		manifest_arg=domain=DOMAIN&path=PATH&is_public=1&
