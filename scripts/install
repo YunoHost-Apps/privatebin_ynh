@@ -101,7 +101,7 @@ chmod 700 $final_path/{data,tmp}
 #=================================================
 # SETUP SSOWAT
 #=================================================
-ynh_script_progression --message="Configuring permissions..." --last
+ynh_script_progression --message="Configuring permissions..."  --weight=1
 
 # If app is public, add url to SSOWat conf as skipped_uris
 if [ $is_public -eq 1 ]; then
