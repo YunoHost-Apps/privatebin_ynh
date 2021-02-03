@@ -89,7 +89,7 @@ fi
 #=================================================
 # NGINX CONFIGURATION
 #=================================================
-ynh_script_progression --message="Upgrading NGINX web server configuration..."
+ynh_script_progression --message="Upgrading NGINX web server configuration..." --weight=1
 
 # Create a dedicated NGINX config
 ynh_add_nginx_config
@@ -126,23 +126,6 @@ find $final_path -type d | xargs chmod 755
 mkdir -p $final_path/{data,tmp}
 chown -R $app:root $final_path/{data,tmp}
 chmod 700 $final_path/{data,tmp}
-
-#=================================================
-# SETUP SSOWAT
-#=================================================
-ynh_script_progression --message="Upgrading SSOwat configuration..." --weight=1
-
-# If app is public, add url to SSOWat conf as skipped_uris
-if [ $is_public -eq 1 ]; then
-  # unprotected_uris allows SSO credentials to be passed anyway.
-  ynh_app_setting_set --app=$app --key=unprotected_uris --value="/"
-else
-    # If the app is private, viewing paste stays publicly accessible.
-    # Modify the domain to be used in a regex
-    domain_regex=$(echo "$domain" | sed 's@-@.@g')
-    ynh_app_setting_set --app=$app --key=protected_regex --value="$domain_regex$path_url/$"
-    ynh_app_setting_set --app=$app --key=unprotected_regex --value="$domain_regex$path_url/.*$"
-fi
 
 #=================================================
 # RELOAD NGINX
