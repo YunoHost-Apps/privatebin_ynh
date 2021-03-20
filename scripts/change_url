@@ -97,7 +97,7 @@ fi
 #=================================================
 # UPDATE SSOWAT
 #=================================================
-ynh_script_progression --message="Reconfiguring SSOwat..."
+ynh_script_progression --message="Reconfiguring permissions..."
 
 if [ $is_public -eq 0 ]
 then
