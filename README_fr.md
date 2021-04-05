@@ -16,7 +16,7 @@ Les données sont chiffrées et déchiffrées dans le navigateur en utilisant la
 
 Ce projet est un fork de ZeroBin, développé à l'origine par Sébastien Sauvage. Il a été ré-écrit pour accepter plus facilement des extensions en rajoutant plus de fonctionnalités. Il reste cependant compatible avec le schéma original de stockage des données Zerobin 0.19. Ainsi toutes les installations peuvent être mises à jour vers ce projet, sans perte de données.
 
-**Version incluse :** 1.3.4
+**Version incluse :** 1.3.5
 
 ## Captures d'écran
 
@@ -39,8 +39,8 @@ Ce projet est un fork de ZeroBin, développé à l'origine par Sébastien Sauvag
 
 #### Architectures supportées
 
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/privatebin%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/privatebin/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/privatebin%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/privatebin/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/privatebin.svg)](https://ci-apps.yunohost.org/ci/apps/privatebin/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/privatebin.svg)](https://ci-apps-arm.yunohost.org/ci/apps/privatebin/)
 
 ## Limitations
 
