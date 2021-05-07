@@ -6,7 +6,7 @@
 *[Read this readme in english.](./README.md)* 
 
 > *Ce package vous permet d'installer PrivateBin rapidement et simplement sur un serveur YunoHost.  
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/install) pour savoir comment l'installer et en profiter.*
 
 ## Vue d'ensemble
 
@@ -31,7 +31,7 @@ Ce projet est un fork de ZeroBin, développé à l'origine par Sébastien Sauvag
 ## Documentation
 
  * Documentation officielle : https://github.com/PrivateBin/PrivateBin/wiki
- * Documentation YunoHost : https://yunohost.org/#/app_privatebin_fr
+ * Documentation YunoHost : https://yunohost.org/fr/app_privatebin
 
 ## Caractéristiques spécifiques YunoHost
 
