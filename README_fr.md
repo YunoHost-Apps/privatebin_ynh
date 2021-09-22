@@ -1,30 +1,25 @@
 # PrivateBin pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/privatebin.svg)](https://dash.yunohost.org/appci/app/privatebin) ![](https://ci-apps.yunohost.org/ci/badges/privatebin.status.svg)  ![](https://ci-apps.yunohost.org/ci/badges/privatebin.maintain.svg)
-[![Installer privatebin avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=privatebin)
+[![Niveau d'intégration](https://dash.yunohost.org/integration/privatebin.svg)](https://dash.yunohost.org/appci/app/privatebin) ![](https://ci-apps.yunohost.org/ci/badges/privatebin.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/privatebin.maintain.svg)  
+[![Installer PrivateBin avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=privatebin)
 
 *[Read this readme in english.](./README.md)*
 *[Lire ce readme en français.](./README_fr.md)*
 
-> *This package allows you to install privatebin quickly and simply on a YunoHost server.
-If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/install) to learn how to install it.*
+> *Ce package vous permet d'installer PrivateBin rapidement et simplement sur un serveur YunoHost.
+Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
 
 ## Vue d'ensemble
 
 Pastebin minimaliste où le serveur n'a aucune connaissance des données copiées
 
-**Version incluse:** 1.3.5~ynh1
+**Version incluse :** 1.3.5~ynh1
 
-**Démo:** https://privatebin.net/
-
+**Démo :** https://privatebin.net/
 
 ## Captures d'écran
 
-
-   ![](./doc/screenshots/bootstrap.png)
-
-
-
+![](./doc/screenshots/bootstrap.png)
 
 ## Avertissements / informations importantes
 
@@ -39,16 +34,13 @@ Dans la [documentation de mise à jour](https://github.com/PrivateBin/PrivateBin
 Pour une compatibilité complète avec Zerobin et le déchiffrement de tous les vieux "paste", vous devriez activer cette option. Cependant, ce n'est pas recommandé pour les nouvelles installations car cela affaiblit la sécurité de votre instance PrivateBin.
 
 Ceci signifie que nous avons décidé de supprimer ce répertoire pour permettre la sécurisation des données. Vous pouvez sauvegarder le répertoire 'data', si vous voulez conservez vos données. Mais vous devriez savoir que cela réduit la sécurité de votre application.
-
-
 ## Documentations et ressources
 
-* Site official de l'app : https://privatebin.info/
-* Documentation officielle utilisateur: https://yunohost.org/en/app_privatebin
-* Documentation officielle de l'admin: https://github.com/PrivateBin/PrivateBin/wiki
-* Dépôt de code officiel de l'app:  https://github.com/PrivateBin/PrivateBin
-* Documentation YunoHost pour cette app: https://yunohost.org/app_privatebin
-* Signaler un bug: https://github.com/YunoHost-Apps/privatebin_ynh/issues
+* Site officiel de l'app : https://privatebin.info/
+* Documentation officielle de l'admin : https://github.com/PrivateBin/PrivateBin/wiki
+* Dépôt de code officiel de l'app : https://github.com/PrivateBin/PrivateBin
+* Documentation YunoHost pour cette app : https://yunohost.org/app_privatebin
+* Signaler un bug : https://github.com/YunoHost-Apps/privatebin_ynh/issues
 
 ## Informations pour les développeurs
 
@@ -57,8 +49,8 @@ Merci de faire vos pull request sur la [branche testing](https://github.com/Yuno
 Pour essayer la branche testing, procédez comme suit.
 ```
 sudo yunohost app install https://github.com/YunoHost-Apps/privatebin_ynh/tree/testing --debug
-or
+ou
 sudo yunohost app upgrade privatebin -u https://github.com/YunoHost-Apps/privatebin_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications:** https://yunohost.org/packaging_apps
+**Plus d'infos sur le packaging d'applications :** https://yunohost.org/packaging_apps
