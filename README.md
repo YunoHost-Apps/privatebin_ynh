@@ -17,7 +17,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Minimalist pastebin where the server has zero knowledge of pasted data
 
-**Shipped version:** 1.3.5~ynh1
+**Shipped version:** 1.4.0~ynh1
 
 **Demo:** https://privatebin.net/
 

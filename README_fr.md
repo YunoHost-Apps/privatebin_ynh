@@ -13,7 +13,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 Pastebin minimaliste où le serveur n'a aucune connaissance des données copiées
 
-**Version incluse :** 1.3.5~ynh1
+**Version incluse :** 1.4.0~ynh1
 
 **Démo :** https://privatebin.net/
 
