@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # PrivateBin for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/privatebin.svg)](https://dash.yunohost.org/appci/app/privatebin) ![](https://ci-apps.yunohost.org/ci/badges/privatebin.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/privatebin.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/privatebin.svg)](https://dash.yunohost.org/appci/app/privatebin) ![Working status](https://ci-apps.yunohost.org/ci/badges/privatebin.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/privatebin.maintain.svg)  
 [![Install PrivateBin with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=privatebin)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -17,13 +17,14 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Minimalist pastebin where the server has zero knowledge of pasted data
 
-**Shipped version:** 1.4.0~ynh1
+
+**Shipped version:** 1.4.0~ynh2
 
 **Demo:** https://privatebin.net/
 
 ## Screenshots
 
-![](./doc/screenshots/bootstrap.png)
+![Screenshot of PrivateBin](./doc/screenshots/bootstrap.png)
 
 ## Disclaimers / important information
 
@@ -38,23 +39,25 @@ In the [update documentation](https://github.com/PrivateBin/PrivateBin/wiki/Conf
 For full compatibility with ZeroBin and to be able to decrypt old pastes, you would enable this option. However this is not recommend for new installations as it weakens the security of your PrivateBin instance.
 
 This means that we have decided to delete the directory that allows us to save the data. You can save the 'data' directory, if you want to keep your data. But you should know that this weakens the security of this application.
+
 ## Documentation and resources
 
-* Official app website: https://privatebin.info/
-* Official admin documentation: https://github.com/PrivateBin/PrivateBin/wiki
-* Upstream app code repository: https://github.com/PrivateBin/PrivateBin
-* YunoHost documentation for this app: https://yunohost.org/app_privatebin
-* Report a bug: https://github.com/YunoHost-Apps/privatebin_ynh/issues
+* Official app website: <https://privatebin.info/>
+* Official admin documentation: <https://github.com/PrivateBin/PrivateBin/wiki>
+* Upstream app code repository: <https://github.com/PrivateBin/PrivateBin>
+* YunoHost documentation for this app: <https://yunohost.org/app_privatebin>
+* Report a bug: <https://github.com/YunoHost-Apps/privatebin_ynh/issues>
 
 ## Developer info
 
 Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/privatebin_ynh/tree/testing).
 
 To try the testing branch, please proceed like that.
-```
+
+``` bash
 sudo yunohost app install https://github.com/YunoHost-Apps/privatebin_ynh/tree/testing --debug
 or
 sudo yunohost app upgrade privatebin -u https://github.com/YunoHost-Apps/privatebin_ynh/tree/testing --debug
 ```
 
-**More info regarding app packaging:** https://yunohost.org/packaging_apps
+**More info regarding app packaging:** <https://yunohost.org/packaging_apps>
