@@ -44,7 +44,6 @@ ynh_script_progression --message="Storing installation settings..." --weight=1
 
 ynh_app_setting_set --app=$app --key=domain --value=$domain
 ynh_app_setting_set --app=$app --key=path --value=$path_url
-ynh_app_setting_set --app=$app --key=is_public --value=$is_public
 
 #=================================================
 # STANDARD MODIFICATIONS
@@ -64,6 +63,11 @@ ynh_script_progression --message="Setting up source files..." --weight=3
 ynh_app_setting_set --app=$app --key=final_path --value=$final_path
 # Download, check integrity, uncompress and patch the source from app.src
 ynh_setup_source --dest_dir="$final_path"
+mkdir -p $final_path/{data,tmp}
+
+chmod 750 "$final_path"
+chmod -R o-rwx "$final_path"
+chown -R $app:www-data "$final_path"
 
 #=================================================
 # PHP-FPM CONFIGURATION
@@ -82,33 +86,17 @@ ynh_script_progression --message="Configuring NGINX web server..." --weight=1
 ynh_add_nginx_config
 
 #=================================================
-# SPECIFIC SETUP
-#=================================================
-# SECURE FILES AND DIRECTORIES
-#=================================================
-
-# Set permissions to app files
-chown -R root: $final_path
-# Files owned by user specific can just read
-find $final_path -type f | xargs chmod 644
-find $final_path -type d | xargs chmod 755
-
-# Except for data and tmp subdir, where the user must have write permissions
-mkdir -p $final_path/{data,tmp}
-chown -R $app:root $final_path/{data,tmp}
-chmod 700 $final_path/{data,tmp}
-
-#=================================================
 # GENERIC FINALIZATION
 #=================================================
 # SETUP SSOWAT
 #=================================================
 ynh_script_progression --message="Configuring permissions..." --weight=1
 
-# If app is public, add url to SSOWat conf as skipped_uris
+# Make app public if necessary
 if [ $is_public -eq 1 ]
 then
-	# unprotected_uris allows SSO credentials to be passed anyway.
+	# Everyone can access the app.
+	# The "main" permission is automatically created before the install script.
 	ynh_permission_update --permission="main" --add="visitors"
 else
 	# If the app is private, viewing paste stays publicly accessible.
