@@ -17,8 +17,8 @@
     },
     "license": "Zlib",
     "maintainer": {
-        "name": "julien",
-        "email": "julien.malik@paraiso.me"
+        "name": "",
+        "email": ""
     },
     "requirements": {
         "yunohost": ">= 4.3.0"
