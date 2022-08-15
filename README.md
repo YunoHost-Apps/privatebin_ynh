@@ -20,6 +20,7 @@ Minimalist pastebin where the server has zero knowledge of pasted data
 
 **Shipped version:** 1.4.0~ynh2
 
+
 **Demo:** https://privatebin.net/
 
 ## Screenshots

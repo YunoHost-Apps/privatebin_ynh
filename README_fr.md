@@ -18,7 +18,8 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 Pastebin minimaliste où le serveur n'a aucune connaissance des données copiées
 
 
-**Version incluse :** 1.4.0~ynh2
+**Version incluse :** 1.4.0~ynh2
+
 
 **Démo :** https://privatebin.net/
 
