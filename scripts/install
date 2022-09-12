@@ -76,6 +76,7 @@ ynh_script_progression --message="Configuring PHP-FPM..." --weight=2
 
 # Create a dedicated PHP-FPM config
 ynh_add_fpm_config
+phpversion=$(ynh_app_setting_get --app=$app --key=phpversion)
 
 #=================================================
 # NGINX CONFIGURATION
@@ -98,12 +99,6 @@ then
 	# Everyone can access the app.
 	# The "main" permission is automatically created before the install script.
 	ynh_permission_update --permission="main" --add="visitors"
-else
-	# If the app is private, viewing paste stays publicly accessible.
-	# Modify the domain to be used in a regex
-	domain_regex=$(echo "$domain" | sed 's@-@.@g')
-	ynh_app_setting_set --app=$app --key=protected_regex --value="$domain_regex$path_url/$"
-	ynh_app_setting_set --app=$app --key=unprotected_regex --value="$domain_regex$path_url/.*$"
 fi
 
 #=================================================
