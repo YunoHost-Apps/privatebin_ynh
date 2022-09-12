@@ -24,14 +24,13 @@ app=$YNH_APP_INSTANCE_NAME
 #=================================================
 # LOAD SETTINGS
 #=================================================
-ynh_script_progression --message="Loading installation settings..."
+ynh_script_progression --message="Loading installation settings..." --weight=1
 
 # Needed for helper "ynh_add_nginx_config"
 final_path=$(ynh_app_setting_get --app=$app --key=final_path)
-is_public=$(ynh_app_setting_get --app=$app --key=is_public)
 
 #=================================================
-# BACKUP BEFORE UPGRADE THEN ACTIVE TRAP
+# BACKUP BEFORE CHANGE URL THEN ACTIVE TRAP
 #=================================================
 ynh_script_progression --message="Backing up the app before changing its URL (may take a while)..." --weight=1
 
@@ -95,29 +94,11 @@ then
 fi
 
 #=================================================
-# UPDATE SSOWAT
-#=================================================
-ynh_script_progression --message="Reconfiguring permissions..."
-
-if [ $is_public -eq 0 ]
-then
-    # If the app is private, viewing images stays publicly accessible.
-    if [ "$new_path" == "/" ]; then
-        # If the path is /, clear it to prevent any error with the regex.
-        new_path=""
-    fi
-    # Modify the domain to be used in a regex
-    domain_regex=$(echo "$new_domain" | sed 's@-@.@g')
-    ynh_app_setting_set --app=$app --key=protected_regex --value="$domain_regex$new_path/$"
-    ynh_app_setting_set --app=$app --key=unprotected_regex --value="$domain_regex$new_path/.*$"
-fi
-
-#=================================================
 # GENERIC FINALISATION
 #=================================================
 # RELOAD NGINX
 #=================================================
-ynh_script_progression --message="Reloading NGINX web server..."
+ynh_script_progression --message="Reloading NGINX web server..." --weight=1
 
 ynh_systemd_action --service_name=nginx --action=reload
 
@@ -125,4 +106,4 @@ ynh_systemd_action --service_name=nginx --action=reload
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Change of URL completed for PrivateBin" --last
+ynh_script_progression --message="Change of URL completed for $app" --last
