@@ -1,7 +1,6 @@
-SOURCE_URL=https://github.com/PrivateBin/PrivateBin/archive/1.4.0.tar.gz
-SOURCE_SUM=a0ff8ff4f8eabda1f963d8ffc99ac32559f3dcb8050ed0bde384093e450d534f
+SOURCE_URL=https://github.com/PrivateBin/PrivateBin/archive/1.5.0.tar.gz
+SOURCE_SUM=ef3146fc5183780c6d6641deab6a392d8de0d39c8f14ef86a7d9be102e5013e9
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
 SOURCE_FILENAME=
-SOURCE_EXTRACT=true
