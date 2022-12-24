@@ -6,7 +6,7 @@
         "en": "Minimalist pastebin where the server has zero knowledge of pasted data",
         "fr": "Pastebin minimaliste où le serveur n'a aucune connaissance des données copiées"
     },
-    "version": "1.4.0~ynh2",
+    "version": "1.5.1~ynh1",
     "url": "https://github.com/PrivateBin/PrivateBin",
     "upstream": {
         "license": "Zlib",
@@ -21,12 +21,12 @@
         "email": ""
     },
     "requirements": {
-        "yunohost": ">= 4.3.0"
+        "yunohost": ">= 11.0.9"
     },
     "multi_instance": true,
     "services": [
         "nginx",
-        "php7.3-fpm"
+        "php7.4-fpm"
     ],
     "arguments": {
         "install": [
