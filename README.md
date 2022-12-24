@@ -24,7 +24,6 @@ This is a fork of ZeroBin, originally developed by Sébastien Sauvage. It was re
 
 **Shipped version:** 1.4.0~ynh2
 
-
 **Demo:** https://privatebin.net/
 
 ## Screenshots
