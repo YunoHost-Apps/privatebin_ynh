@@ -5,15 +5,16 @@ It shall NOT be edited by hand.
 
 # PrivateBin pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/privatebin.svg)](https://dash.yunohost.org/appci/app/privatebin) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/privatebin.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/privatebin.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/privatebin.svg)](https://dash.yunohost.org/appci/app/privatebin) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/privatebin.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/privatebin.maintain.svg)
+
 [![Installer PrivateBin avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=privatebin)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer PrivateBin rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer PrivateBin rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Pastebin minimaliste où le serveur n'a aucune connaissance des données copiées
 
@@ -26,9 +27,9 @@ Ce projet est un fork de ZeroBin, développé à l'origine par Sébastien Sauvag
 
 **Démo :** https://privatebin.net/
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de PrivateBin](./doc/screenshots/bootstrap.png)
+![Capture d’écran de PrivateBin](./doc/screenshots/bootstrap.png)
 
 ## Avertissements / informations importantes
 
@@ -42,9 +43,9 @@ Ceci signifie que nous avons décidé de supprimer ce répertoire pour permettre
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://privatebin.info/>
-* Documentation officielle de l'admin : <https://github.com/PrivateBin/PrivateBin/wiki>
-* Dépôt de code officiel de l'app : <https://github.com/PrivateBin/PrivateBin>
+* Site officiel de l’app : <https://privatebin.info/>
+* Documentation officielle de l’admin : <https://github.com/PrivateBin/PrivateBin/wiki>
+* Dépôt de code officiel de l’app : <https://github.com/PrivateBin/PrivateBin>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_privatebin>
 * Signaler un bug : <https://github.com/YunoHost-Apps/privatebin_ynh/issues>
 
@@ -60,4 +61,4 @@ ou
 sudo yunohost app upgrade privatebin -u https://github.com/YunoHost-Apps/privatebin_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
