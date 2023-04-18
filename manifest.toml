@@ -1,0 +1,58 @@
+packaging_format = 2
+
+id = "privatebin"
+name = "PrivateBin"
+description.en = "Minimalist pastebin where the server has zero knowledge of pasted data"
+description.fr = "Pastebin minimaliste où le serveur n'a aucune connaissance des données copiées"
+
+version = "1.5.1~ynh2"
+
+maintainers = [""]
+
+[upstream]
+license = "Zlib"
+website = "https://privatebin.info/"
+demo = "https://privatebin.net/"
+admindoc = "https://github.com/PrivateBin/PrivateBin/wiki"
+code = "https://github.com/PrivateBin/PrivateBin"
+
+[integration]
+yunohost = ">= 11.1.17"
+architectures = "all"
+multi_instance = true
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/privatebin"
+
+    [install.init_main_permission]
+    help.en = "If private, only YunoHost users can create a paste, but everyone can read it."
+    help.fr = "Si privé, seul les utilisateurs YunoHost peuvent créer un paste, mais tout le monde peut lire."
+    type = "group"
+    default = "visitors"
+
+[resources]
+        [resources.sources.main]
+        url = "https://github.com/PrivateBin/PrivateBin/archive/1.5.1.tar.gz"
+        sha256 = "d3c3d4b85afa6c429fd912ef8c8f46ee1e06b2b592afdd8a28890722d57c5bd8"
+
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.apt]
+    packages = "php8.0-fpm"
+    

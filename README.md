@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # PrivateBin for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/privatebin.svg)](https://dash.yunohost.org/appci/app/privatebin) ![Working status](https://ci-apps.yunohost.org/ci/badges/privatebin.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/privatebin.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/privatebin.svg)](https://dash.yunohost.org/appci/app/privatebin) ![Working status](https://ci-apps.yunohost.org/ci/badges/privatebin.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/privatebin.maintain.svg)
+
 [![Install PrivateBin with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=privatebin)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -22,23 +23,13 @@ Data is encrypted/decrypted in the browser using 256bit AES in Galois Counter mo
 This is a fork of ZeroBin, originally developed by Sébastien Sauvage. It was refactored to allow easier and cleaner extensions and has now much more features than the original. It is however still fully compatible to the original ZeroBin 0.19 data storage scheme. Therefore such installations can be upgraded to this fork without loosing any data.
 
 
-**Shipped version:** 1.5.1~ynh1
+**Shipped version:** 1.5.1~ynh2
 
 **Demo:** https://privatebin.net/
 
 ## Screenshots
 
 ![Screenshot of PrivateBin](./doc/screenshots/bootstrap.png)
-
-## Disclaimers / important information
-
-## Additional information
-
-In the [update documentation](https://github.com/PrivateBin/PrivateBin/wiki/Configuration#zerobincompatibility) of PrivateBin, it is specified that:
-
-For full compatibility with ZeroBin and to be able to decrypt old pastes, you would enable this option. However this is not recommend for new installations as it weakens the security of your PrivateBin instance.
-
-This means that we have decided to delete the directory that allows us to save the data. You can save the 'data' directory, if you want to keep your data. But you should know that this weakens the security of this application.
 
 ## Documentation and resources
 
