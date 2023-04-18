@@ -31,16 +31,6 @@ Ce projet est un fork de ZeroBin, développé à l'origine par Sébastien Sauvag
 
 ![Capture d’écran de PrivateBin](./doc/screenshots/bootstrap.png)
 
-## Avertissements / informations importantes
-
-## Informations additionnelles
-
-Dans la [documentation de mise à jour](https://github.com/PrivateBin/PrivateBin/wiki/Configuration#zerobincompatibility) de PrivateBin, il est précisé que :
-
-Pour une compatibilité complète avec Zerobin et le déchiffrement de tous les vieux "paste", vous devriez activer cette option. Cependant, ce n'est pas recommandé pour les nouvelles installations car cela affaiblit la sécurité de votre instance PrivateBin.
-
-Ceci signifie que nous avons décidé de supprimer ce répertoire pour permettre la sécurisation des données. Vous pouvez sauvegarder le répertoire 'data', si vous voulez conservez vos données. Mais vous devriez savoir que cela réduit la sécurité de votre application.
-
 ## Documentations et ressources
 
 * Site officiel de l’app : <https://privatebin.info/>
