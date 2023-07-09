@@ -16,14 +16,10 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-Pastebin minimaliste où le serveur n'a aucune connaissance des données copiées
-
-Les données sont chiffrées et déchiffrées dans le navigateur en utilisant la technologie AES 256bits en mode Galois Counter (GCM).
-
-Ce projet est un fork de ZeroBin, développé à l'origine par Sébastien Sauvage. Il a été ré-écrit pour accepter plus facilement des extensions en rajoutant plus de fonctionnalités. Il reste cependant compatible avec le schéma original de stockage des données Zerobin 0.19. Ainsi toutes les installations peuvent être mises à jour vers ce projet, sans perte de données.
+Pastebin minimaliste où le serveur n'a aucune connaissance des données copiées. Les données sont chiffrées et déchiffrées dans le navigateur en utilisant la technologie AES 256bits en mode Galois Counter (GCM).
 
 
-**Version incluse :** 1.5.1~ynh2
+**Version incluse :** 1.5.2~ynh1
 
 **Démo :** https://privatebin.net/
 
