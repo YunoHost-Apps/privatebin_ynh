@@ -32,7 +32,7 @@ Pastebin minimaliste où le serveur n'a aucune connaissance des données copiée
 * Site officiel de l’app : <https://privatebin.info/>
 * Documentation officielle de l’admin : <https://github.com/PrivateBin/PrivateBin/wiki>
 * Dépôt de code officiel de l’app : <https://github.com/PrivateBin/PrivateBin>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_privatebin>
+* YunoHost Store: <https://apps.yunohost.org/app/privatebin>
 * Signaler un bug : <https://github.com/YunoHost-Apps/privatebin_ynh/issues>
 
 ## Informations pour les développeurs
