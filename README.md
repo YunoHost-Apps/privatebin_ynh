@@ -19,7 +19,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 Minimalist pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256bit AES in Galois Counter mode.
 
 
-**Shipped version:** 1.6.0~ynh1
+**Shipped version:** 1.6.2~ynh1
 
 **Demo:** https://privatebin.net/
 
@@ -32,7 +32,7 @@ Minimalist pastebin where the server has zero knowledge of pasted data. Data is 
 * Official app website: <https://privatebin.info/>
 * Official admin documentation: <https://github.com/PrivateBin/PrivateBin/wiki>
 * Upstream app code repository: <https://github.com/PrivateBin/PrivateBin>
-* YunoHost documentation for this app: <https://yunohost.org/app_privatebin>
+* YunoHost Store: <https://apps.yunohost.org/app/privatebin>
 * Report a bug: <https://github.com/YunoHost-Apps/privatebin_ynh/issues>
 
 ## Developer info
