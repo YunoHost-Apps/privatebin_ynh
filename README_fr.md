@@ -19,7 +19,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 Pastebin minimaliste où le serveur n'a aucune connaissance des données copiées. Les données sont chiffrées et déchiffrées dans le navigateur en utilisant la technologie AES 256bits en mode Galois Counter (GCM).
 
 
-**Version incluse :** 1.6.0~ynh1
+**Version incluse :** 1.6.2~ynh1
 
 **Démo :** https://privatebin.net/
 
@@ -32,7 +32,7 @@ Pastebin minimaliste où le serveur n'a aucune connaissance des données copiée
 * Site officiel de l’app : <https://privatebin.info/>
 * Documentation officielle de l’admin : <https://github.com/PrivateBin/PrivateBin/wiki>
 * Dépôt de code officiel de l’app : <https://github.com/PrivateBin/PrivateBin>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_privatebin>
+* YunoHost Store: <https://apps.yunohost.org/app/privatebin>
 * Signaler un bug : <https://github.com/YunoHost-Apps/privatebin_ynh/issues>
 
 ## Informations pour les développeurs
