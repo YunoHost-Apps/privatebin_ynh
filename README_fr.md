@@ -19,7 +19,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 Pastebin minimaliste où le serveur n'a aucune connaissance des données copiées. Les données sont chiffrées et déchiffrées dans le navigateur en utilisant la technologie AES 256bits en mode Galois Counter (GCM).
 
 
-**Version incluse :** 1.6.2~ynh1
+**Version incluse :** 1.6.2~ynh2
 
 **Démo :** https://privatebin.net/
 
