@@ -5,7 +5,7 @@ name = "PrivateBin"
 description.en = "Minimalist pastebin where the server has zero knowledge of pasted data"
 description.fr = "Pastebin minimaliste où le serveur n'a aucune connaissance des données copiées"
 
-version = "1.6.2~ynh1"
+version = "1.6.2~ynh2"
 
 maintainers = [""]
 
@@ -20,8 +20,11 @@ code = "https://github.com/PrivateBin/PrivateBin"
 yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
+
 ldap = false
+
 sso = false
+
 disk = "50M"
 ram.build = "150M"
 ram.runtime = "50M"
@@ -41,7 +44,7 @@ ram.runtime = "50M"
 [resources]
         [resources.sources.main]
         url = "https://github.com/PrivateBin/PrivateBin/archive/refs/tags/1.6.2.tar.gz"
-        sha256 = "dc6bd9e15d89ac807ffbee8e3a2dbdb6080e18422d293d2411d93aee4204db80"
+        sha256 = "0c466f8aa87ada2b7b43187c1b24c5d7b897ba2c09404963dee0a9a847246c40"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
