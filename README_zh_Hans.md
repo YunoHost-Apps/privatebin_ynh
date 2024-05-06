@@ -19,7 +19,7 @@
 Minimalist pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256bit AES in Galois Counter mode.
 
 
-**分发版本：** 1.7.1~ynh1
+**分发版本：** 1.7.2~ynh1
 
 **演示：** <https://privatebin.net/>
 
