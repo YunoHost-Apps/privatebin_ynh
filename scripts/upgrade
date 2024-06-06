@@ -34,16 +34,31 @@ if [ -z "${fpm_usage:-}" ]; then
     ynh_app_setting_set --app=$app --key=fpm_usage --value=$fpm_usage
 fi
 
+if ynh_compare_current_package_version --comparison lt --version "1.7.3~ynh1"; then
+    ynh_script_progression --message="Moving data..." --weight=3
+    mv $install_dir/data/* $data_dir/
+fi
+
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 ynh_script_progression --message="Upgrading source files..." --weight=3
 
 # Download, check integrity, uncompress and patch the source from app.src
-ynh_setup_source --dest_dir="$install_dir"
+ynh_setup_source --dest_dir="$install_dir" --full_replace=1
 
 chmod -R o-rwx "$install_dir"
 chown -R $app:www-data "$install_dir"
+
+#=================================================
+# UPDATE A CONFIG FILE
+#=================================================
+ynh_script_progression --message="Updating $app's configuration files..." --weight=1
+
+ynh_add_config --template="conf.php" --destination="$install_dir/cfg/conf.php"
+
+chmod 400 "$install_dir/cfg/conf.php"
+chown "$app:$app" "$install_dir/cfg/conf.php"
 
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
