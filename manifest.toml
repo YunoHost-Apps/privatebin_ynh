@@ -5,7 +5,7 @@ name = "PrivateBin"
 description.en = "Minimalist pastebin where the server has zero knowledge of pasted data"
 description.fr = "Pastebin minimaliste où le serveur n'a aucune connaissance des données copiées"
 
-version = "1.7.3~ynh1"
+version = "1.7.4~ynh1"
 
 maintainers = []
 
@@ -17,7 +17,8 @@ admindoc = "https://github.com/PrivateBin/PrivateBin/wiki"
 code = "https://github.com/PrivateBin/PrivateBin"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 11.2.20"
+helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
 
@@ -43,8 +44,8 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/PrivateBin/PrivateBin/archive/refs/tags/1.7.3.tar.gz"
-        sha256 = "85b3b8db81e893b684364b12085cd2ee9eef172d96e6d831ebbc021fcb32fb99"
+        url = "https://github.com/PrivateBin/PrivateBin/archive/refs/tags/1.7.4.tar.gz"
+        sha256 = "ee90331a9a955d1bf7efe178d89a92359092123d1071ee2aab1866c0ab43af97"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
@@ -55,5 +56,5 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.2-fpm"
+    packages = "php8.3-fpm"
     
