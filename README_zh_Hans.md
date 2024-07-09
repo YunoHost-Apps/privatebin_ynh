@@ -5,7 +5,7 @@
 
 # YunoHost 上的 PrivateBin
 
-[![集成程度](https://dash.yunohost.org/integration/privatebin.svg)](https://dash.yunohost.org/appci/app/privatebin) ![工作状态](https://ci-apps.yunohost.org/ci/badges/privatebin.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/privatebin.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/privatebin.svg)](https://ci-apps.yunohost.org/ci/apps/privatebin/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/privatebin.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/privatebin.maintain.svg)
 
 [![使用 YunoHost 安装 PrivateBin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=privatebin)
 
@@ -19,7 +19,7 @@
 Minimalist pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256bit AES in Galois Counter mode.
 
 
-**分发版本：** 1.7.3~ynh1
+**分发版本：** 1.7.4~ynh1
 
 **演示：** <https://privatebin.net/>
 
