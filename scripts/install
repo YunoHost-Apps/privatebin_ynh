@@ -19,7 +19,7 @@ chown -R $app:www-data "$install_dir"
 #=================================================
 # APP INITIAL CONFIGURATION
 #=================================================
-ynh_script_progression --message="Adding $app's configuration files..." --weight=1
+ynh_script_progression "Adding $app's configuration files..."
 
 ynh_config_add --template="conf.php" --destination="$install_dir/cfg/conf.php"
 
