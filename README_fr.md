@@ -5,7 +5,7 @@ Il NE doit PAS être modifié à la main.
 
 # PrivateBin pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/privatebin.svg)](https://dash.yunohost.org/appci/app/privatebin) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/privatebin.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/privatebin.maintain.svg)
+[![Niveau d’intégration](https://dash.yunohost.org/integration/privatebin.svg)](https://ci-apps.yunohost.org/ci/apps/privatebin/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/privatebin.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/privatebin.maintain.svg)
 
 [![Installer PrivateBin avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=privatebin)
 
@@ -19,7 +19,7 @@ Il NE doit PAS être modifié à la main.
 Pastebin minimaliste où le serveur n'a aucune connaissance des données copiées. Les données sont chiffrées et déchiffrées dans le navigateur en utilisant la technologie AES 256bits en mode Galois Counter (GCM).
 
 
-**Version incluse :** 1.7.3~ynh2
+**Version incluse :** 1.7.4~ynh1
 
 **Démo :** <https://privatebin.net/>
 

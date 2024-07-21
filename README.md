@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # PrivateBin for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/privatebin.svg)](https://dash.yunohost.org/appci/app/privatebin) ![Working status](https://ci-apps.yunohost.org/ci/badges/privatebin.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/privatebin.maintain.svg)
+[![Integration level](https://dash.yunohost.org/integration/privatebin.svg)](https://ci-apps.yunohost.org/ci/apps/privatebin/) ![Working status](https://ci-apps.yunohost.org/ci/badges/privatebin.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/privatebin.maintain.svg)
 
 [![Install PrivateBin with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=privatebin)
 
@@ -19,7 +19,7 @@ It shall NOT be edited by hand.
 Minimalist pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256bit AES in Galois Counter mode.
 
 
-**Shipped version:** 1.7.3~ynh2
+**Shipped version:** 1.7.4~ynh1
 
 **Demo:** <https://privatebin.net/>
 
