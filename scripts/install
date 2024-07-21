@@ -21,7 +21,7 @@ chown -R $app:www-data "$install_dir"
 #=================================================
 ynh_script_progression --message="Adding $app's configuration files..." --weight=1
 
-ynh_add_config --template="conf.php" --destination="$install_dir/cfg/conf.php"
+ynh_config_add --template="conf.php" --destination="$install_dir/cfg/conf.php"
 
 chmod 400 "$install_dir/cfg/conf.php"
 chown "$app:$app" "$install_dir/cfg/conf.php"
