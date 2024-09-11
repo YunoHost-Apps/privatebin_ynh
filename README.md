@@ -19,7 +19,7 @@ It shall NOT be edited by hand.
 Minimalist pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256bit AES in Galois Counter mode.
 
 
-**Shipped version:** 1.7.4~ynh1
+**Shipped version:** 1.7.4~ynh2
 
 **Demo:** <https://privatebin.net/>
 

@@ -19,7 +19,7 @@ No se debe editar a mano.
 Minimalist pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256bit AES in Galois Counter mode.
 
 
-**Versión actual:** 1.7.4~ynh1
+**Versión actual:** 1.7.4~ynh2
 
 **Demo:** <https://privatebin.net/>
 
@@ -37,7 +37,7 @@ Minimalist pastebin where the server has zero knowledge of pasted data. Data is 
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/privatebin_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/privatebin_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
