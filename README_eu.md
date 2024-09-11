@@ -19,7 +19,7 @@ EZ editatu eskuz.
 Minimalist pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256bit AES in Galois Counter mode.
 
 
-**Paketatutako bertsioa:** 1.7.4~ynh1
+**Paketatutako bertsioa:** 1.7.4~ynh2
 
 **Demoa:** <https://privatebin.net/>
 
