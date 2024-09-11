@@ -37,7 +37,7 @@ Minimalist pastebin where the server has zero knowledge of pasted data. Data is 
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/privatebin_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/privatebin_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
