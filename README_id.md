@@ -31,7 +31,7 @@ Minimalist pastebin where the server has zero knowledge of pasted data. Data is 
 
 - Website aplikasi resmi: <https://privatebin.info/>
 - Dokumentasi admin resmi: <https://github.com/PrivateBin/PrivateBin/wiki>
-- Repositori kode aplikasi hulu: <https://github.com/PrivateBin/PrivateBin>
+- Depot kode aplikasi hulu: <https://github.com/PrivateBin/PrivateBin>
 - Gudang YunoHost: <https://apps.yunohost.org/app/privatebin>
 - Laporkan bug: <https://github.com/YunoHost-Apps/privatebin_ynh/issues>
 
