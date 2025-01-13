@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # PrivateBin voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/privatebin.svg)](https://ci-apps.yunohost.org/ci/apps/privatebin/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/privatebin.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/privatebin.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/privatebin)](https://ci-apps.yunohost.org/ci/apps/privatebin/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/privatebin)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/privatebin)
 
 [![PrivateBin met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=privatebin)
 

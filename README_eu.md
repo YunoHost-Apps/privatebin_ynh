@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # PrivateBin YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/privatebin.svg)](https://ci-apps.yunohost.org/ci/apps/privatebin/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/privatebin.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/privatebin.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/privatebin)](https://ci-apps.yunohost.org/ci/apps/privatebin/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/privatebin)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/privatebin)
 
 [![Instalatu PrivateBin YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=privatebin)
 

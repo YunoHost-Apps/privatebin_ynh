@@ -5,7 +5,9 @@ No se debe editar a mano.
 
 # PrivateBin para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/privatebin.svg)](https://ci-apps.yunohost.org/ci/apps/privatebin/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/privatebin.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/privatebin.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/privatebin)](https://ci-apps.yunohost.org/ci/apps/privatebin/)
+![Estado funcional](https://apps.yunohost.org/badge/state/privatebin)
+![Estado En Mantención](https://apps.yunohost.org/badge/maintained/privatebin)
 
 [![Instalar PrivateBin con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=privatebin)
 

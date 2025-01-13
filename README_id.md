@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # PrivateBin untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/privatebin.svg)](https://ci-apps.yunohost.org/ci/apps/privatebin/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/privatebin.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/privatebin.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/privatebin)](https://ci-apps.yunohost.org/ci/apps/privatebin/)
+![Status kerja](https://apps.yunohost.org/badge/state/privatebin)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/privatebin)
 
 [![Pasang PrivateBin dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=privatebin)
 

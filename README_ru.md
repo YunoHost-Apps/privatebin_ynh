@@ -5,7 +5,9 @@
 
 # PrivateBin для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/privatebin.svg)](https://ci-apps.yunohost.org/ci/apps/privatebin/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/privatebin.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/privatebin.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/privatebin)](https://ci-apps.yunohost.org/ci/apps/privatebin/)
+![Состояние работы](https://apps.yunohost.org/badge/state/privatebin)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/privatebin)
 
 [![Установите PrivateBin с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=privatebin)
 
