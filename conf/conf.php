@@ -214,13 +214,13 @@ dir = PATH "__DATA_DIR__"
 
 ;[model]
 ; example of DB configuration for PostgreSQL
-;class = Database
+class = Database
 ;[model_options]
-;dsn = "pgsql:host=localhost;dbname=privatebin"
-;tbl = "privatebin_"     ; table prefix
-;usr = "privatebin"
-;pwd = "Z3r0P4ss"
-;opt[12] = true    ; PDO::ATTR_PERSISTENT
+dsn = "pgsql:host=localhost;dbname=__DB_NAME__"
+tbl = "privatebin_"     ; table prefix
+usr = "__DB_USER__"
+pwd = "__DB_PWD__"
+opt[12] = true    ; PDO::ATTR_PERSISTENT
 
 ;[model]
 ; example of S3 configuration for Rados gateway / CEPH
