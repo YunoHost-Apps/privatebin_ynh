@@ -5,7 +5,7 @@ name = "PrivateBin"
 description.en = "Pastebin where the server has zero knowledge of pasted data"
 description.fr = "Pastebin où le serveur ignore les données copiées"
 
-version = "1.7.5~ynh1"
+version = "1.7.5~ynh2"
 
 maintainers = []
 
@@ -38,8 +38,17 @@ ram.runtime = "50M"
     default = "/privatebin"
 
     [install.init_main_permission]
+    help.en = "If private, only YunoHost users can create a paste, but everyone can read it."
+    help.fr = "Si privé, seul les utilisateurs YunoHost peuvent créer un paste, mais tout le monde peut lire."
     type = "group"
     default = "visitors"
+
+    [install.language]
+    ask.en = "Choose the application language"
+    ask.fr = "Choisissez la langue de l'application"
+    type = "select"
+    choices = ["de", "en", "es","fr", "it", "nl", "pl", "pt"]
+    default = "fr"
 
 [resources]
         [resources.sources.main]
@@ -52,9 +61,11 @@ ram.runtime = "50M"
     [resources.install_dir]
     group = "www-data:r-x"
 
+    [resources.data_dir]
+    
     [resources.permissions]
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.3-fpm, php8.3-gd"
+    packages = "php8.3-gd"
     
