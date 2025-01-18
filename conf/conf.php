@@ -73,11 +73,11 @@ languagedefault = "__LANGUAGE__"
 
 ; (optional) Let users create a QR code for sharing the paste URL with one click.
 ; It works both when a new paste is created and when you view a paste.
-; qrcode = true
+qrcode = true
 
 ; (optional) Let users send an email sharing the paste URL with one click.
 ; It works both when a new paste is created and when you view a paste.
-; email = true
+email = true
 
 ; (optional) IP based icons are a weak mechanism to detect if a comment was from
 ; a different user when the same username was used in a comment. It might get
@@ -183,7 +183,7 @@ batchsize = 10
 ; the default model "Filesystem" stores everything in the filesystem
 class = Filesystem
 [model_options]
-dir = PATH "data"
+dir = PATH "__DATA_DIR__"
 
 ;[model]
 ; example of a Google Cloud Storage configuration

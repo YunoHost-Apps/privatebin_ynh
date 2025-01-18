@@ -12,10 +12,20 @@ ynh_script_progression "Setting up source files..."
 
 ynh_setup_source --dest_dir="$install_dir"
 
-mkdir -p $install_dir/{data,tmp}
+mkdir -p $install_dir/tmp
 
 chmod -R o-rwx "$install_dir"
 chown -R $app:www-data "$install_dir"
+
+#=================================================
+# APP INITIAL CONFIGURATION
+#=================================================
+ynh_script_progression "Adding $app's configuration files..."
+
+ynh_config_add --template="conf.php" --destination="$install_dir/cfg/conf.php"
+
+chmod 600 "$install_dir/cfg/conf.php"
+chown "$app:$app" "$install_dir/cfg/conf.php"
 
 #=================================================
 # SYSTEM CONFIGURATION
