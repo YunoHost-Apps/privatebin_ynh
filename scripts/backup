@@ -25,6 +25,14 @@ ynh_backup "/etc/nginx/conf.d/$domain.d/$app.conf"
 
 ynh_backup "/etc/php/$php_version/fpm/pool.d/$app.conf"
 
+
+#=================================================
+# BACKUP THE DATABASE
+#=================================================
+ynh_print_info "Backing up the database..."
+
+ynh_psql_dump_db > db.sql
+
 #=================================================
 # END OF SCRIPT
 #=================================================
