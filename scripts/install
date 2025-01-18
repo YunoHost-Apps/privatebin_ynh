@@ -9,6 +9,7 @@ source /usr/share/yunohost/helpers
 
 ynh_app_setting_set --key=php_memory_limit --value=50M
 ynh_app_setting_set --key=php_upload_max_filesize --value=10M
+ynh_app_setting_set --key=expire --value="1week"
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE

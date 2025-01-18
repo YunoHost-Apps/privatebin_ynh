@@ -1,0 +1,19 @@
+version = "1.0"
+
+[main]
+name.en = "PrivateBin configuration"
+name.fr = "Configuration de PrivateBin"
+
+    [main.config]
+    name.en = "Configuration Options"
+    name.fr = "Options de configuration"
+
+        [main.config.expire]
+        ask.en = "Expire value"
+        ask.fr = "Valeur d'expiration"
+        type = "select"
+        choices = ["5min", "10min", "1hour", "1day", "1week", "1month", "1year", "never"]
+        default = "1week"
+        help.en = "Expire value that is selected per default"
+        help.fr = "Valeur d'expiration sélectionnée par défaut"
+        bind = "expire:__INSTALL_DIR__/cfg/conf.php"
