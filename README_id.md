@@ -21,7 +21,7 @@ Ini TIDAK boleh diedit dengan tangan.
 Minimalist pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256bit AES in Galois Counter mode.
 
 
-**Versi terkirim:** 1.7.5~ynh1
+**Versi terkirim:** 1.7.5~ynh2
 
 **Demo:** <https://privatebin.net/>
 

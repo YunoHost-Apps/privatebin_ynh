@@ -3,7 +3,17 @@
 source _common.sh
 source /usr/share/yunohost/helpers
 
+#=================================================
+# INITIALIZE AND STORE SETTINGS
+#=================================================
+
+expire="1week"
+fileupload="false"
+
 ynh_app_setting_set --key=php_memory_limit --value=50M
+ynh_app_setting_set --key=php_upload_max_filesize --value=10M
+ynh_app_setting_set --key=expire --value=$expire
+ynh_app_setting_set --key=fileupload --value=$fileupload
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
@@ -12,10 +22,15 @@ ynh_script_progression "Setting up source files..."
 
 ynh_setup_source --dest_dir="$install_dir"
 
-mkdir -p $install_dir/{data,tmp}
+#=================================================
+# APP INITIAL CONFIGURATION
+#=================================================
+ynh_script_progression "Adding $app's configuration files..."
 
-chmod -R o-rwx "$install_dir"
-chown -R $app:www-data "$install_dir"
+ynh_config_add --template="conf.php" --destination="$install_dir/cfg/conf.php"
+
+chmod 600 "$install_dir/cfg/conf.php"
+chown "$app:$app" "$install_dir/cfg/conf.php"
 
 #=================================================
 # SYSTEM CONFIGURATION
