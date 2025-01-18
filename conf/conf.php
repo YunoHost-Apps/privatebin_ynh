@@ -10,7 +10,7 @@
 ; The full URL, with the domain name and directories that point to the
 ; PrivateBin files, including an ending slash (/). This URL is essential to
 ; allow Opengraph images to be displayed on social networks.
-basepath = "https://__DOMAIN__/__PATH__"
+basepath = "https://__DOMAIN____PATH__/"
 
 ; enable or disable the discussion feature, defaults to true
 discussion = true
