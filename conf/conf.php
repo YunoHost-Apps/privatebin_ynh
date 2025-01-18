@@ -48,7 +48,7 @@ sizelimit = 10485760
 ; which can be combined with "-dark" and "-compact" for "bootstrap-dark-page"
 ; and finally "bootstrap-compact-page" - previews at:
 ; https://privatebin.info/screenshots.html
-template = "bootstrap5"
+template = "bootstrap-dark"
 
 ; (optional) info text to display
 ; use single, instead of double quotes for HTML attributes
@@ -60,7 +60,7 @@ template = "bootstrap5"
 ; by default PrivateBin will guess the visitors language based on the browsers
 ; settings. Optionally you can enable the language selection menu, which uses
 ; a session cookie to store the choice until the browser is closed.
-languageselection = false
+languageselection = true
 
 ; set the language your installs defaults to, defaults to English
 ; if this is set and language selection is disabled, this will be the only language
