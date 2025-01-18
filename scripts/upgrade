@@ -8,14 +8,12 @@ source /usr/share/yunohost/helpers
 #=================================================
 ynh_script_progression "Ensuring downward compatibility..."
 
+ynh_app_setting_set_default --key=language --value="fr"
 ynh_app_setting_set_default --key=php_upload_max_filesize --value=10M
 ynh_app_setting_set_default --key=php_memory_limit --value=50M
 ynh_app_setting_set_default --key=expire --value="1week"
 ynh_app_setting_set_default --key=fileupload --value="false"
-ynh_app_setting_set_default --key=template --value="bootstrap-dark"
-
-# If language doesn't exist, create it
-ynh_app_setting_set_default --key=language --value="fr"
+ynh_app_setting_set_default --key=template --value="bootstrap"
 
 # Move the data dir to /yunohost.app/privatebin
 if ynh_app_upgrading_from_version_before 1.7.5~ynh2; then
