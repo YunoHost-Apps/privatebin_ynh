@@ -11,6 +11,7 @@ ynh_script_progression "Ensuring downward compatibility..."
 ynh_app_setting_set_default --key=php_upload_max_filesize --value=10M
 ynh_app_setting_set_default --key=php_memory_limit --value=50M
 ynh_app_setting_set_default --key=expire --value="1week"
+ynh_app_setting_set_default --key=fileupload --value="false"
 
 # If language doesn't exist, create it
 ynh_app_setting_set_default --key=language --value="fr"

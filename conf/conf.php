@@ -27,7 +27,7 @@ opendiscussion = false
 password = true
 
 ; enable or disable the file upload feature, defaults to false
-fileupload = false
+fileupload = __FILEUPLOAD__
 
 ; preselect the burn-after-reading feature, defaults to false
 burnafterreadingselected = false
