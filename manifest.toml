@@ -45,7 +45,7 @@ ram.runtime = "50M"
     ask.en = "Choose the application language"
     ask.fr = "Choisissez la langue de l'application"
     type = "select"
-    choices = ["fr", "en"]
+    choices = ["de", "en", "es","fr", "it", "nl", "pl", "pt"]
     default = "fr"
 
 [resources]
@@ -65,5 +65,5 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.3-fpm"
+    packages = "php8.3-fpm, php8.3-gd"
     
