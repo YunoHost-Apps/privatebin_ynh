@@ -5,7 +5,7 @@ name = "PrivateBin"
 description.en = "Pastebin where the server has zero knowledge of pasted data"
 description.fr = "Pastebin où le serveur ignore les données copiées"
 
-version = "1.7.5~ynh1"
+version = "1.7.5~ynh2"
 
 maintainers = []
 
