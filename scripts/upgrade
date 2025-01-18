@@ -3,12 +3,15 @@
 source _common.sh
 source /usr/share/yunohost/helpers
 
-ynh_app_setting_set_default --key=php_memory_limit --value=50M
-
 #=================================================
 # ENSURE DOWNWARD COMPATIBILITY
 #=================================================
 ynh_script_progression "Ensuring downward compatibility..."
+
+ynh_app_setting_set_default --key=php_memory_limit --value=50M
+
+# If language doesn't exist, create it
+ynh_app_setting_set_default --key=language --value="fr"
 
 if ynh_app_upgrading_from_version_before 1.7.5~ynh1; then
     ynh_script_progression "Moving data..."
