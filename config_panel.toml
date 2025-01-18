@@ -28,13 +28,3 @@ name.fr = "Configuration de PrivateBin"
         help.en = "Enable or disable the file upload feature"
         help.fr = "Activer ou désactiver la fonction de téléchargement de fichiers"
         bind = "fileupload:__INSTALL_DIR__/cfg/conf.php"
-
-        [main.config.template]
-        ask.en = "Template"
-        ask.fr = "Template"
-        type = "select"
-        choices = ["bootstrap", "bootstrap-dark", "bootstrap-compact", "bootstrap-page", "bootstrap5"]
-        default = "bootstrap"
-        help.en = "PrivateBin comes with multiple templates"
-        help.fr = "PrivateBin est livré avec plusieurs modèles"
-        bind = "template:__INSTALL_DIR__/cfg/conf.php"
