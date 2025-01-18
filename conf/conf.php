@@ -27,7 +27,7 @@ opendiscussion = false
 password = true
 
 ; enable or disable the file upload feature, defaults to false
-fileupload = false
+fileupload = __FILEUPLOAD__
 
 ; preselect the burn-after-reading feature, defaults to false
 burnafterreadingselected = false
@@ -125,7 +125,7 @@ email = true
 [expire]
 ; expire value that is selected per default
 ; make sure the value exists in [expire_options]
-default = "1week"
+default = "__EXPIRE__"
 
 [expire_options]
 ; Set each one of these to the number of seconds in the expiration period,
