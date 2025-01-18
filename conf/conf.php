@@ -48,7 +48,7 @@ sizelimit = 10485760
 ; which can be combined with "-dark" and "-compact" for "bootstrap-dark-page"
 ; and finally "bootstrap-compact-page" - previews at:
 ; https://privatebin.info/screenshots.html
-template = "bootstrap-dark"
+template = "bootstrap5"
 
 ; (optional) info text to display
 ; use single, instead of double quotes for HTML attributes
