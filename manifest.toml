@@ -5,7 +5,7 @@ name = "PrivateBin"
 description.en = "Pastebin where the server has zero knowledge of pasted data"
 description.fr = "Pastebin où le serveur ignore les données copiées"
 
-version = "1.7.5~ynh2"
+version = "1.7.5~ynh3"
 
 maintainers = []
 
@@ -67,5 +67,5 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.3-gd"
+    packages = "php8.3-gd, zlib1g-dev"
     

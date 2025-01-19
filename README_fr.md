@@ -21,7 +21,7 @@ Il NE doit PAS être modifié à la main.
 Pastebin minimaliste où le serveur n'a aucune connaissance des données copiées. Les données sont chiffrées et déchiffrées dans le navigateur en utilisant la technologie AES 256bits en mode Galois Counter (GCM).
 
 
-**Version incluse :** 1.7.5~ynh2
+**Version incluse :** 1.7.5~ynh3
 
 **Démo :** <https://privatebin.net/>
 
