@@ -8,6 +8,15 @@ name.fr = "Configuration de PrivateBin"
     name.en = "Configuration Options"
     name.fr = "Options de configuration"
 
+        [main.config.name]
+        ask.en = "Service name"
+        ask.fr = "Nom du service"
+        type = "string"
+        default = "PrivateBin"
+        help.en = "Set a project name to be displayed on the website"
+        help.fr = "Définir un nom de projet à afficher sur le site Web"
+        bind = "name:__INSTALL_DIR__/cfg/conf.php"
+
         [main.config.expire]
         ask.en = "Expire value"
         ask.fr = "Valeur d'expiration"

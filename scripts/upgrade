@@ -16,6 +16,7 @@ ynh_app_setting_set_default --key=php_post_max_size --value=10M
 
 ynh_app_setting_set_default --key=expire --value="1week"
 ynh_app_setting_set_default --key=fileupload --value="false"
+ynh_app_setting_set_default --key=name --value="PrivateBin"
 
 # Move the data dir to /yunohost.app/privatebin
 if ynh_app_upgrading_from_version_before 1.7.5~ynh2; then
