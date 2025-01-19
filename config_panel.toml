@@ -15,7 +15,7 @@ name.fr = "Configuration de PrivateBin"
         default = "PrivateBin"
         help.en = "Set a project name to be displayed on the website"
         help.fr = "Définir un nom de projet à afficher sur le site Web"
-        bind = "name:__INSTALL_DIR__/cfg/conf.php"
+        bind = ":__INSTALL_DIR__/cfg/conf.php"
 
         [main.config.expire]
         ask.en = "Expire value"
