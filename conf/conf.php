@@ -5,7 +5,7 @@
 
 [main]
 ; (optional) set a project name to be displayed on the website
-; name = "__NAME__"
+name = "__NAME__"
 
 ; The full URL, with the domain name and directories that point to the
 ; PrivateBin files, including an ending slash (/). This URL is essential to
