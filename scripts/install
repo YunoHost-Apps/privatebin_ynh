@@ -12,6 +12,8 @@ fileupload="false"
 
 ynh_app_setting_set --key=php_memory_limit --value=50M
 ynh_app_setting_set --key=php_upload_max_filesize --value=10M
+ynh_app_setting_set --key=php_post_max_size --value=10M
+
 ynh_app_setting_set --key=expire --value=$expire
 ynh_app_setting_set --key=fileupload --value=$fileupload
 
