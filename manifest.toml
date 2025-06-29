@@ -67,5 +67,5 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.3-gd, zlib1g-dev"
+    packages = "php8.4-gd, zlib1g-dev"
     
