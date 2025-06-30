@@ -28,7 +28,7 @@ fi
 #=================================================
 ynh_script_progression "Upgrading source files..."
 
-ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="conf.php"
+ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="cfg/conf.php"
 
 #=================================================
 # UPDATE A CONFIG FILE
