@@ -68,5 +68,8 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.4-gd, zlib1g-dev"
+    packages = "postgresql, php8.4-gd, , php8.4-pgsql, zlib1g-dev"
+
+    [resources.database]
+    type = "postgresql"
     
