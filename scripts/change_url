@@ -11,6 +11,16 @@ ynh_script_progression "Updating NGINX web server configuration..."
 ynh_config_change_url_nginx
 
 #=================================================
+# APP INITIAL CONFIGURATION
+#=================================================
+ynh_script_progression "Adding $app's configuration files..."
+
+ynh_config_add --template="conf.php" --destination="$install_dir/cfg/conf.php"
+
+chmod 600 "$install_dir/cfg/conf.php"
+chown "$app:$app" "$install_dir/cfg/conf.php"
+
+#=================================================
 # END OF SCRIPT
 #=================================================
 
