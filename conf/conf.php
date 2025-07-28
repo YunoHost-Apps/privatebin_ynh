@@ -208,25 +208,6 @@ dir = PATH "__DATA_DIR__"
 ;uniformacl = false
 
 ;[model]
-; example of DB configuration for MySQL
-;class = Database
-;[model_options]
-;dsn = "mysql:host=localhost;dbname=privatebin;charset=UTF8"
-;tbl = "privatebin_"	; table prefix
-;usr = "privatebin"
-;pwd = "Z3r0P4ss"
-;opt[12] = true	  ; PDO::ATTR_PERSISTENT
-
-;[model]
-; example of DB configuration for SQLite
-;class = Database
-;[model_options]
-;dsn = "sqlite:" PATH "data/db.sq3"
-;usr = null
-;pwd = null
-;opt[12] = true	; PDO::ATTR_PERSISTENT
-
-;[model]
 ; example of DB configuration for PostgreSQL
 class = Database
 ;[model_options]
