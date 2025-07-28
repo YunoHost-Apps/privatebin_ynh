@@ -54,6 +54,7 @@ ram.runtime = "50M"
         [resources.sources.main]
         url = "https://github.com/PrivateBin/PrivateBin/archive/refs/tags/2.0.0.tar.gz"
         sha256 = "4bd2ae9e560f72510f1af19dd3d062872c26bbce7cb5437cbb1f7997b83011a8"
+
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
