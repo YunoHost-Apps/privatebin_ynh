@@ -42,13 +42,26 @@ defaultformatter = "plaintext"
 ; size limit per paste or comment in bytes, defaults to 10 Mebibytes
 sizelimit = 10485760
 
-; template to include, default is "bootstrap" (tpl/bootstrap.php), also
-; available are "page" (tpl/page.php), the classic ZeroBin style and several
-; bootstrap variants: "bootstrap-dark", "bootstrap-compact", "bootstrap-page",
-; which can be combined with "-dark" and "-compact" for "bootstrap-dark-page"
-; and finally "bootstrap-compact-page" - previews at:
+; by default PrivateBin use "bootstrap5" template (tpl/bootstrap5.php).
+; Optionally you can enable the template selection menu, which uses
+; a session cookie to store the choice until the browser is closed.
+templateselection = false
+
+; List of available for selection templates when "templateselection" option is enabled
+availabletemplates[] = "bootstrap5"
+availabletemplates[] = "bootstrap"
+availabletemplates[] = "bootstrap-page"
+availabletemplates[] = "bootstrap-dark"
+availabletemplates[] = "bootstrap-dark-page"
+availabletemplates[] = "bootstrap-compact"
+availabletemplates[] = "bootstrap-compact-page"
+
+; set the template your installs defaults to, defaults to "bootstrap5" (tpl/bootstrap5.php), also
+; bootstrap template (tpl/bootstrap.php) and it's variants: "bootstrap-dark", "bootstrap-compact", "bootstrap-page",
+; which can be combined with "-dark" and "-compact" for "bootstrap-dark-page",
+; "bootstrap-compact-page" - previews at:
 ; https://privatebin.info/screenshots.html
-template = "bootstrap-dark"
+; template = "bootstrap5"
 
 ; (optional) info text to display
 ; use single, instead of double quotes for HTML attributes
